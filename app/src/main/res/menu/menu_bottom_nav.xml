@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_active"
+        android:icon="@drawable/ic_active"
+        android:title="Active"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add_trade"
+        android:title="Add"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_closed"
+        android:title="Closed"
+        android:icon="@drawable/ic_done_all"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_news"
+        android:title="News"
+        android:checked="true"/>
+
+</menu>
